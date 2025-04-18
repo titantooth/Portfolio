@@ -17,7 +17,9 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      Curated content on finance, data science, and emerging tech. Get practical tips, in-depth analysis, and updates on the tools and trends shaping the future—delivered straight to your inbox.
+      Curated content on finance, data science, and emerging tech. Get practical
+      tips, in-depth analysis, and updates on the tools and trends shaping the
+      future—delivered straight to your inbox.
     </>
   ),
 };
@@ -54,8 +56,10 @@ const home = {
   headline: <>Models. Markets. Analytics.</>,
   subline: (
     <>
-      I'm <b>Ali</b>, Master’s Student in Quantitative Economics & Finance @ <InlineCode>University of Luxembourg</InlineCode>,
-      <br /> Focused on Financial Markets, KYC/AML Compliance & Risk Management | <b>Seeking Opportunities in Global Markets.</b>
+      I'm <b>Ali</b>, Master’s Student in Quantitative Economics & Finance @{" "}
+      <InlineCode>University of Luxembourg</InlineCode>,
+      <br /> Focused on Financial Markets, KYC/AML Compliance & Risk Management
+      | <b>Seeking Opportunities in Global Markets.</b>
     </>
   ),
 };
@@ -80,11 +84,14 @@ const about = {
     title: "Introduction",
     description: (
       <p style={{ textAlign: "justify" }}>
-        I’m a Master’s student in Quantitative Economics and Finance with a strong interest in financial markets, risk management,
-         and the intersection of data and decision-making. I enjoy analyzing how institutions navigate complex
-          financial environments and thrive on turning quantitative insights into strategic outcomes. 
-          With a passion for market dynamics, regulatory frameworks, and financial innovation,
-         I’m driven to contribute to teams where analytical thinking and curiosity fuel real-world impact
+        I’m a Master’s student in Quantitative Economics and Finance with a
+        strong interest in financial markets, risk management, and the
+        intersection of data and decision-making. I enjoy analyzing how
+        institutions navigate complex financial environments and thrive on
+        turning quantitative insights into strategic outcomes. With a passion
+        for market dynamics, regulatory frameworks, and financial innovation,
+        I’m driven to contribute to teams where analytical thinking and
+        curiosity fuel real-world impact
       </p>
     ),
   },
@@ -98,17 +105,16 @@ const about = {
         role: "Execution Desk Intern",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Redesigned the UI/UX for the FLY platform, resulting in a 20%
+            increase in user engagement and 30% faster load times.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Spearheaded the integration of AI tools into design workflows,
+            enabling designers to iterate 50% faster.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
-
         ],
       },
       {
@@ -117,15 +123,18 @@ const about = {
         role: "Deep Learning Data Analyst, Student job",
         achievements: [
           <>
-            As a Data Analyst, I cleaned and preprocessed datasets, which reduced errors by 18%.
+            As a Data Analyst, I cleaned and preprocessed datasets, which
+            reduced errors by 18%.
+          </>,
+          <>I extracted Bloomberg data to improve reporting accuracy by 20%.</>,
+          <>
+            Developed financial ML and deep learning models, achieving 92%
+            prediction accuracy.
           </>,
           <>
-            I extracted Bloomberg data to improve reporting accuracy by 20%.
+            Analyzed patterns and created visualizations to enhance data-driven
+            decision-making.
           </>,
-          <>Developed financial ML and deep learning models, achieving 92% prediction accuracy.
-          </>,
-          <>Analyzed patterns and created visualizations to enhance data-driven decision-making.
-          </>
         ],
         images: [],
       },
@@ -135,18 +144,19 @@ const about = {
         role: "Portfolio Manager Assistant",
         achievements: [
           <>
-Supported investment decision-making by conducting quantitative analysis and
-generating performance reports, increasing portfolio efficiency by 12%
+            Supported investment decision-making by conducting quantitative
+            analysis and generating performance reports, increasing portfolio
+            efficiency by 12%
+          </>,
+          <>Streamlined data workflows, reducing processing time by 25%.</>,
+          <>
+            Managed client communications, improving client satisfaction scores
+            by 15%.
           </>,
           <>
-Streamlined data workflows, reducing processing time by 25%.
-</>,
-          <>Managed client communications, improving client satisfaction scores by 15%.
-
+            Assisted in re-balancing portfolios, achieving a 5% risk-adjusted
+            return improvement.
           </>,
-          <>Assisted in re-balancing portfolios, achieving a 5% risk-adjusted return improvement.
-
-          </>
         ],
         images: [],
       },
@@ -158,23 +168,43 @@ Streamlined data workflows, reducing processing time by 25%.
     institutions: [
       {
         name: "University of Luxembourg",
-        description: <p style={{ textAlign: "justify" }}>Master of Science in Quantitative Economics and Finance<br /> <b>Focus:</b> An intensive first year of Ph.D. program focusing on economics, finance and data
-        science.
-        <br /><b>Courses:</b> Mathematics and Statistics, Microeconomics, Macroeconomics, Sustainability,
-        Econometrics, Financial Theory, Advanced Empirical Analysis, Applied General Equilibrium,
-        Risk Management, Risk & Compliance, Sustainable development.</p>,
+        description: (
+          <p style={{ textAlign: "justify" }}>
+            Master of Science in Quantitative Economics and Finance
+            <br /> <b>Focus:</b> An intensive first year of Ph.D. program
+            focusing on economics, finance and data science.
+            <br />
+            <b>Courses:</b> Mathematics and Statistics, Microeconomics,
+            Macroeconomics, Sustainability, Econometrics, Financial Theory,
+            Advanced Empirical Analysis, Applied General Equilibrium, Risk
+            Management, Risk & Compliance, Sustainable development.
+          </p>
+        ),
       },
       {
         name: "University of Tehran",
-        description: <p style={{ textAlign: "justify" }}>Master of Science in Financial Management<br />
-        <br /><b>Courses:</b> Corporate Finance, Investment Analysis and Portfolio Management, Financial
-        Markets and Institutions, Valuation and Financial Modeling.</p>,
+        description: (
+          <p style={{ textAlign: "justify" }}>
+            Master of Science in Financial Management
+            <br />
+            <br />
+            <b>Courses:</b> Corporate Finance, Investment Analysis and Portfolio
+            Management, Financial Markets and Institutions, Valuation and
+            Financial Modeling.
+          </p>
+        ),
       },
       {
         name: "Kharazmi University",
-        description: <p style={{ textAlign: "justify" }}>Bachelor of Science in Industrial Enginnering<br /> 
-        <br /><b>Courses:</b> Advanced Economics, Financial Management, Engineering Economics, and
-        Accounting.</p>,
+        description: (
+          <p style={{ textAlign: "justify" }}>
+            Bachelor of Science in Industrial Enginnering
+            <br />
+            <br />
+            <b>Courses:</b> Advanced Economics, Financial Management,
+            Engineering Economics, and Accounting.
+          </p>
+        ),
       },
     ],
   },
@@ -184,58 +214,65 @@ Streamlined data workflows, reducing processing time by 25%.
     skills: [
       {
         title: "Hard Skills",
-        description: 
-        <>
-        <br />
-        <ul>
-  <li><strong>Finance:</strong>
-    <ul>
-      <li>KYC/AML, Investment Fund Reporting, Financial Analysis, Investment Analysis, Power BI, Tableau, Excel VBA, BPM Tools</li>
-    </ul>
-  </li>
-  <li><strong>Programming & Data Science:</strong>
-    <ul>
-      <li>Machine Learning, Deep Learning, Python, MATLAB, SQL</li>
-    </ul>
-  </li>
-  <li><strong>Office & Productivity Tools:</strong>
-    <ul>
-      <li>Google Workspace, Word, Excel, PowerPoint, MS Project</li>
-    </ul>
-  </li>
-  <li><strong>Statistical & Economic Analysis Software:</strong>
-    <ul>
-      <li>SPSS, Stata, Dynare, Primavera P6, PowerBI</li>
-    </ul>
-  </li>
-  <li><strong>Design & Creative Software:</strong>
-    <ul>
-      <li>Adobe (Photoshop, InDesign, Dreamweaver), Figma, Sketch</li>
-    </ul>
-  </li>
-</ul>
-
-
-        </>,
+        description: (
+          <>
+            <br />
+            <ul>
+              <li>
+                <strong>Finance:</strong>
+                <ul>
+                  <li>
+                    KYC/AML, Investment Fund Reporting, Financial Analysis,
+                    Investment Analysis, Power BI, Tableau, Excel VBA, BPM Tools
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Programming & Data Science:</strong>
+                <ul>
+                  <li>Machine Learning, Deep Learning, Python, MATLAB, SQL</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Office & Productivity Tools:</strong>
+                <ul>
+                  <li>Google Workspace, Word, Excel, PowerPoint, MS Project</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Statistical & Economic Analysis Software:</strong>
+                <ul>
+                  <li>SPSS, Stata, Dynare, Primavera P6, PowerBI</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Design & Creative Software:</strong>
+                <ul>
+                  <li>
+                    Adobe (Photoshop, InDesign, Dreamweaver), Figma, Sketch
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </>
+        ),
         // optional: leave the array empty if you don't want to display images
-
       },
       {
         title: "Soft Skills",
-        description: 
-        <>
-        <br />
-<ul>
-  <li>Rigorous</li>
-  <li>Analytical and Critical Thinking</li>
-  <li>Problem-solving</li>
-  <li>Organizational skills</li>
-  <li>Ethical decision-making</li>
-  <li>Interpersonal skills</li>
-</ul>
-
-
-        </>,
+        description: (
+          <>
+            <br />
+            <ul>
+              <li>Rigorous</li>
+              <li>Analytical and Critical Thinking</li>
+              <li>Problem-solving</li>
+              <li>Organizational skills</li>
+              <li>Ethical decision-making</li>
+              <li>Interpersonal skills</li>
+            </ul>
+          </>
+        ),
         // optional: leave the array empty if you don't want to display images
       },
     ],

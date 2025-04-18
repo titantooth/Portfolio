@@ -12,7 +12,7 @@ import {
 
 
 
-export const ProjectCard: React.FC<ProjectCardProps> = ({
+export const ProjectCard = ({
   href,
   images = [],
   title,
@@ -21,5 +21,10 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   avatars,
   link,
 }) => {
+  return (
+    <div>
+
+    </div>
+  );
 
 };
