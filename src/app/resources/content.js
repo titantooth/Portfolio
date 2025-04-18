@@ -84,7 +84,7 @@ const about = {
          and the intersection of data and decision-making. I enjoy analyzing how institutions navigate complex
           financial environments and thrive on turning quantitative insights into strategic outcomes. 
           With a passion for market dynamics, regulatory frameworks, and financial innovation,
-         I’m driven to contribute to teams where analytical thinking and curiosity fuel real-world impact.
+         I’m driven to contribute to teams where analytical thinking and curiosity fuel real-world impact
       </p>
     ),
   },
