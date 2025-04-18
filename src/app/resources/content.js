@@ -84,14 +84,15 @@ const about = {
     title: "Introduction",
     description: (
       <p style={{ textAlign: "justify" }}>
-        I’m a Master’s student in Quantitative Economics and Finance with a
+        Master’s student in Quantitative Economics and Finance with expertise in risk management, financial modeling, and regulatory compliance. Skilled in credit, market, and operational risk assessment, with proficiency in Python, SQL, Power BI, and Bloomberg. Strong analytical and problem-solving abilities, fluent in English (C2) and French (C1).
+        {/* I’m a Master’s student in Quantitative Economics and Finance with a
         strong interest in financial markets, risk management, and the
         intersection of data and decision-making. I enjoy analyzing how
         institutions navigate complex financial environments and thrive on
         turning quantitative insights into strategic outcomes. With a passion
         for market dynamics, regulatory frameworks, and financial innovation,
         I’m driven to contribute to teams where analytical thinking and
-        curiosity fuel real-world impact
+        curiosity fuel real-world impact */}
       </p>
     ),
   },
