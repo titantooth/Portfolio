@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Ali",
+  lastName: "Rabiee",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  role: "Models. Markets. Analytics.",
+  avatar: "/images/Ali.jpg",
+  location: "Europe/Luxembourg", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "French", "German", "Persian"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -17,8 +17,7 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      Curated content on finance, data science, and emerging tech. Get practical tips, in-depth analysis, and updates on the tools and trends shaping the future—delivered straight to your inbox.
     </>
   ),
 };
@@ -29,12 +28,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/titantooth",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/ali-rabiee-208690b7/",
   },
   {
     name: "X",
@@ -44,7 +43,7 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "mailto:ali.rabieeie@gmail.com",
   },
 ];
 
@@ -52,18 +51,18 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>Models. Markets. Analytics.</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm <b>Ali</b>, Master’s Student in Quantitative Economics & Finance @ <InlineCode>University of Luxembourg</InlineCode>,
+      <br /> Focused on Financial Markets, KYC/AML Compliance & Risk Management | <b>Seeking Opportunities in Global Markets.</b>
     </>
   ),
 };
 
 const about = {
-  label: "About",
-  title: "About me",
+  label: "C.V.",
+  title: "My Resume",
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,
   tableOfContent: {
     display: true,
@@ -73,18 +72,20 @@ const about = {
     display: true,
   },
   calendar: {
-    display: true,
+    display: false,
     link: "https://cal.com",
   },
   intro: {
     display: true,
     title: "Introduction",
     description: (
-      <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
-      </>
+      <p style={{ textAlign: "justify" }}>
+        I’m a Master’s student in Quantitative Economics and Finance with a strong interest in financial markets, risk management,
+         and the intersection of data and decision-making. I enjoy analyzing how institutions navigate complex
+          financial environments and thrive on turning quantitative insights into strategic outcomes. 
+          With a passion for market dynamics, regulatory frameworks, and financial innovation,
+         I’m driven to contribute to teams where analytical thinking and curiosity fuel real-world impact.
+      </p>
     ),
   },
   work: {
@@ -92,9 +93,9 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Quintet Private Bank",
+        timeframe: "2025 - Present",
+        role: "Execution Desk Intern",
         achievements: [
           <>
             Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
@@ -107,27 +108,45 @@ const about = {
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
+
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "University of Luxembourg",
+        timeframe: "Oct 2024 - April 2025",
+        role: "Deep Learning Data Analyst, Student job",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            As a Data Analyst, I cleaned and preprocessed datasets, which reduced errors by 18%.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            I extracted Bloomberg data to improve reporting accuracy by 20%.
           </>,
+          <>Developed financial ML and deep learning models, achieving 92% prediction accuracy.
+          </>,
+          <>Analyzed patterns and created visualizations to enhance data-driven decision-making.
+          </>
+        ],
+        images: [],
+      },
+      {
+        company: "Greenskin",
+        timeframe: "March 2022 - March 2024",
+        role: "Portfolio Manager Assistant",
+        achievements: [
+          <>
+Supported investment decision-making by conducting quantitative analysis and
+generating performance reports, increasing portfolio efficiency by 12%
+          </>,
+          <>
+Streamlined data workflows, reducing processing time by 25%.
+</>,
+          <>Managed client communications, improving client satisfaction scores by 15%.
+
+          </>,
+          <>Assisted in re-balancing portfolios, achieving a 5% risk-adjusted return improvement.
+
+          </>
         ],
         images: [],
       },
@@ -135,53 +154,89 @@ const about = {
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "Education",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "University of Luxembourg",
+        description: <p style={{ textAlign: "justify" }}>Master of Science in Quantitative Economics and Finance<br /> <b>Focus:</b> An intensive first year of Ph.D. program focusing on economics, finance and data
+        science.
+        <br /><b>Courses:</b> Mathematics and Statistics, Microeconomics, Macroeconomics, Sustainability,
+        Econometrics, Financial Theory, Advanced Empirical Analysis, Applied General Equilibrium,
+        Risk Management, Risk & Compliance, Sustainable development.</p>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "University of Tehran",
+        description: <p style={{ textAlign: "justify" }}>Master of Science in Financial Management<br />
+        <br /><b>Courses:</b> Corporate Finance, Investment Analysis and Portfolio Management, Financial
+        Markets and Institutions, Valuation and Financial Modeling.</p>,
+      },
+      {
+        name: "Kharazmi University",
+        description: <p style={{ textAlign: "justify" }}>Bachelor of Science in Industrial Enginnering<br /> 
+        <br /><b>Courses:</b> Advanced Economics, Financial Management, Engineering Economics, and
+        Accounting.</p>,
       },
     ],
   },
   technical: {
     display: true, // set to false to hide this section
-    title: "Technical skills",
+    title: "Skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "Hard Skills",
+        description: 
+        <>
+        <br />
+        <ul>
+  <li><strong>Finance:</strong>
+    <ul>
+      <li>KYC/AML, Investment Fund Reporting, Financial Analysis, Investment Analysis, Power BI, Tableau, Excel VBA, BPM Tools</li>
+    </ul>
+  </li>
+  <li><strong>Programming & Data Science:</strong>
+    <ul>
+      <li>Machine Learning, Deep Learning, Python, MATLAB, SQL</li>
+    </ul>
+  </li>
+  <li><strong>Office & Productivity Tools:</strong>
+    <ul>
+      <li>Google Workspace, Word, Excel, PowerPoint, MS Project</li>
+    </ul>
+  </li>
+  <li><strong>Statistical & Economic Analysis Software:</strong>
+    <ul>
+      <li>SPSS, Stata, Dynare, Primavera P6, PowerBI</li>
+    </ul>
+  </li>
+  <li><strong>Design & Creative Software:</strong>
+    <ul>
+      <li>Adobe (Photoshop, InDesign, Dreamweaver), Figma, Sketch</li>
+    </ul>
+  </li>
+</ul>
+
+
+        </>,
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "Soft Skills",
+        description: 
+        <>
+        <br />
+<ul>
+  <li>Rigorous</li>
+  <li>Analytical and Critical Thinking</li>
+  <li>Problem-solving</li>
+  <li>Organizational skills</li>
+  <li>Ethical decision-making</li>
+  <li>Interpersonal skills</li>
+</ul>
+
+
+        </>,
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
       },
     ],
   },
